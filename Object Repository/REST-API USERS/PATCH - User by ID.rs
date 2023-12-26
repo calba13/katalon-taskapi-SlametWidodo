@@ -28,7 +28,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>${baseurl}/users/1</restUrl>
+   <restUrl>${baseurl}/users/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -43,6 +43,13 @@
       <id>dae8a1ef-1a42-4029-831d-c01341f192c3</id>
       <masked>false</masked>
       <name>baseurl</name>
+   </variables>
+   <variables>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>e9a7a1ed-72b5-4aab-b445-bfb1ccefa560</id>
+      <masked>false</masked>
+      <name>id</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
