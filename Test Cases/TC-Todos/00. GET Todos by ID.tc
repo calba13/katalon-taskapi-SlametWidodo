@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>00. GET Todos by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ffcb9a2-3a94-43b6-90f8-df61b178aeab</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bc71db17-3751-4843-9ac9-710fc461bd38</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b6891ab6-f813-478c-a57c-8b404d64a428</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d0ae6e5-6283-4f09-9fff-a8d98dbe1386</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>bc71db17-3751-4843-9ac9-710fc461bd38</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'delectus aut autem'</defaultValue>
+      <description></description>
+      <id>b6891ab6-f813-478c-a57c-8b404d64a428</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>9d0ae6e5-6283-4f09-9fff-a8d98dbe1386</id>
+      <masked>false</masked>
+      <name>completed</name>
+   </variable>
+</TestCaseEntity>

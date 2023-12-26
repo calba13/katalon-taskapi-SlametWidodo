@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\t\&quot;title\&quot; : \&quot;Assignment 2 REST-API\&quot;,\n  \t\&quot;completed\&quot; : true\n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;title\&quot; : \&quot;${title}\&quot;,\n  \t\&quot;completed\&quot; : ${completed}\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -50,6 +50,20 @@
       <id>fffd6bf6-53dc-48bf-bfec-a672ef8ad077</id>
       <masked>false</masked>
       <name>id</name>
+   </variables>
+   <variables>
+      <defaultValue>'Assignment 2 REST-API'</defaultValue>
+      <description></description>
+      <id>3fc379e2-07b3-421d-af7a-f5cbf80b4812</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variables>
+   <variables>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>90e8539c-213d-415c-b0f4-b337f3f66c39</id>
+      <masked>false</masked>
+      <name>completed</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

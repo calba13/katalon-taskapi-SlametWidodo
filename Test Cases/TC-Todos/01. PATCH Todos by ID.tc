@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01. PATCH Todos by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecacffcb-eb0b-46cb-85a4-94ddd9e94099</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>21e4e4a6-26e9-4f35-8d06-888c4376e468</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61c241bc-21e2-4789-82f7-2cded8a159df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7dde940c-f9dd-4cf4-9e1c-227195527f43</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>21e4e4a6-26e9-4f35-8d06-888c4376e468</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Assignment 2 REST-API'</defaultValue>
+      <description></description>
+      <id>61c241bc-21e2-4789-82f7-2cded8a159df</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>7dde940c-f9dd-4cf4-9e1c-227195527f43</id>
+      <masked>false</masked>
+      <name>completed</name>
+   </variable>
+</TestCaseEntity>
