@@ -13,7 +13,7 @@ Repository Github : https://github.com/calba13/katalon-taskapi-SlametWidodo.git
 Total 7 :
 > TC-Todos
 1. 00. GET Todos by ID : Mengambil item Todos menggunakan ID, verify response code 
-2. 01. PATCH Todos by ID : PATCH item Todos menggunakan ID, verify response code, verify Value Response
+2. \01. PATCH Todos by ID : PATCH item Todos menggunakan ID, verify response code, verify Value Response
 3. 02. DELETE Totdos by ID : Delete item Todos menggunakan ID, verify response code 
 
 > TC-USERS
