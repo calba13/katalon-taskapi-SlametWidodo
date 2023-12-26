@@ -4,7 +4,7 @@ import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.testobject.RequestObject
 import static org.assertj.core.api.Assertions.*
 public class apiTodosFeature {
-	
+
 	@Keyword
 	def getTodosbyID(RequestObject request, id, title, completed) {
 		def defaultVar = new customKW.common().defaultVar();
@@ -18,7 +18,7 @@ public class apiTodosFeature {
 			assertThat(jsonResponse.id).isEqualTo(id)
 			assertThat(jsonResponse.title).isEqualTo(title)
 			assertThat(jsonResponse.completed).isEqualTo(completed)
-			
+
 			/* Track STEP */
 			defaultVar["messageList"] << ["message" : "TestCase : ${tcTitle}"]
 			defaultVar["messageList"] << ["message" : "title : ${jsonResponse.title}"]
@@ -40,8 +40,8 @@ public class apiTodosFeature {
 		new customKW.common().cetak("defaultVar : ${defaultVar}");
 		new customKW.common().generateStepReport(defaultVar["isSuccess"], defaultVar["messageList"])
 	}
-	
-	
+
+
 	@Keyword
 	def patchTodosbyID(RequestObject request, id, title, completed) {
 		def defaultVar = new customKW.common().defaultVar();
@@ -55,7 +55,7 @@ public class apiTodosFeature {
 			assertThat(jsonResponse.id).isEqualTo(id)
 			assertThat(jsonResponse.title).isEqualTo(title)
 			assertThat(jsonResponse.completed).isEqualTo(completed)
-			
+
 			/* Track STEP */
 			defaultVar["messageList"] << ["message" : "TestCase : ${tcTitle}"]
 			defaultVar["messageList"] << ["message" : "title : ${jsonResponse.title}"]
