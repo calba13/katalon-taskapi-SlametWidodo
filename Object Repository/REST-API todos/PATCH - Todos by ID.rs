@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>PATCH - User by ID</name>
+   <name>PATCH - Todos by ID</name>
    <tag></tag>
-   <elementGuidId>566fd226-2c44-4c47-9a5d-4753394def63</elementGuidId>
+   <elementGuidId>dc510f7c-dab7-4294-b40c-6c2ceab2b647</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
@@ -11,7 +11,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\t\&quot;name\&quot; : \&quot;${name}\&quot;,\n  \t\&quot;email\&quot; : \&quot;${email}\&quot;\n  \n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;title\&quot; : \&quot;Assignment 2 REST-API\&quot;,\n  \t\&quot;completed\&quot; : true\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -22,13 +22,13 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
-      <webElementGuid>3aba804b-523a-4db8-b35a-16ef222ef55c</webElementGuid>
+      <webElementGuid>291cc4ce-850e-4099-967d-869f64a21b2c</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.1.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>PATCH</restRequestMethod>
-   <restUrl>${baseurl}/users/${id}</restUrl>
+   <restUrl>${baseurl}/todos/${id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -40,30 +40,16 @@
    <variables>
       <defaultValue>GlobalVariable.BASE_URL</defaultValue>
       <description></description>
-      <id>dae8a1ef-1a42-4029-831d-c01341f192c3</id>
+      <id>962f2df5-5e7b-451f-b1ad-4e409d2ceaef</id>
       <masked>false</masked>
       <name>baseurl</name>
    </variables>
    <variables>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>1</defaultValue>
       <description></description>
-      <id>e9a7a1ed-72b5-4aab-b445-bfb1ccefa560</id>
+      <id>fffd6bf6-53dc-48bf-bfec-a672ef8ad077</id>
       <masked>false</masked>
       <name>id</name>
-   </variables>
-   <variables>
-      <defaultValue>'DODO - Hacktiv8'</defaultValue>
-      <description></description>
-      <id>6b19ca19-1081-4e37-b63a-00f74c8a48f8</id>
-      <masked>false</masked>
-      <name>name</name>
-   </variables>
-   <variables>
-      <defaultValue>'hacktiv8@mail.com'</defaultValue>
-      <description></description>
-      <id>b7294375-5b2c-4e75-9462-e5e6fbdd91bd</id>
-      <masked>false</masked>
-      <name>email</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

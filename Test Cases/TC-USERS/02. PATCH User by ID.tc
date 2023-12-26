@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02. PATCH User by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c110608e-c40d-4387-bc76-f08bd81c1f52</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1142ba8b-50c8-44a4-93aa-5aaf69e4d7da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcc6f83c-c6f8-4f88-81eb-401ae2f0a7dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>567833ed-2432-4566-a396-a9a9a1de5333</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>1142ba8b-50c8-44a4-93aa-5aaf69e4d7da</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mr.QC Hacktiv 8'</defaultValue>
+      <description></description>
+      <id>fcc6f83c-c6f8-4f88-81eb-401ae2f0a7dc</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'mrQC_Hacktiv8@april.biz'</defaultValue>
+      <description></description>
+      <id>567833ed-2432-4566-a396-a9a9a1de5333</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>
