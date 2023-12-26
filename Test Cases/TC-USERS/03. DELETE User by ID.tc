@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03. DELETE User by ID</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>090885f7-3831-4bc1-bd4f-0f4b5d661eef</testCaseGuid>
+</TestCaseEntity>
